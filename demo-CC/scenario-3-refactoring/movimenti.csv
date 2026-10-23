@@ -1,0 +1,19 @@
+data,descrizione,categoria,importo
+2026-08-05,Stipendio agosto,stipendio,1850.00
+2026-08-12,Spesa supermercato,pos,-77.25
+2026-08-20,Prelievo bancomat,prelievo,-100.00
+2026-08-28,Cena fuori,pos,-49.50
+2026-09-01,Stipendio settembre,stipendio,1850.00
+2026-09-02,Affitto,bonifico_out,-750.00
+2026-09-03,Spesa supermercato,pos,-84.50
+2026-09-05,Prelievo bancomat,prelievo,-100.00
+2026-09-08,Rimborso da Luca,bonifico_in,45.25
+2026-09-10,Ristorante,pos,-62.75
+2026-09-12,Bolletta luce,bonifico_out,-98.50
+2026-09-15,Canone conto,commissioni,-7.50
+2026-09-18,Spesa supermercato,pos,-91.25
+2026-09-20,Prelievo bancomat,prelievo,-150.00
+2026-09-22,Vendita bici usata,bonifico_in,120.00
+2026-09-25,Benzina,pos,-55.50
+2026-09-27,Farmacia,pos,-23.75
+2026-09-30,Commissione bonifico,commissioni,-1.50

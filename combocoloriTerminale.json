@@ -1,0 +1,90 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "keybindings":
+    [
+        {
+            "id": "Terminal.CopyToClipboard",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "Terminal.DuplicatePaneAuto",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "newTabMenu":
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles":
+    {
+        "defaults": {},
+        "list":
+        [
+            {
+                "colorScheme": "Light Readable",
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "colorScheme": "One Half Light",
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Prompt dei comandi"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "commandline": "%windir%\\System32\\cmd.exe /K \"C:\\Users\\Lenovo\\miniconda3\\Scripts\\activate.bat\" C:\\Users\\Lenovo\\miniconda3\\envs\\mediolanum",
+                "guid": "{d0a39763-b46e-4174-a3c6-14d6f14567c2}",
+                "hidden": false,
+                "name": "Anaconda Prompt",
+                "startingDirectory": "%USERPROFILE%"
+            }
+        ]
+    },
+    "schemes":
+    [
+        {
+            "name": "Light Readable",
+            "background": "#FFFFFF",
+            "foreground": "#1F1F1F",
+            "cursorColor": "#000000",
+            "selectionBackground": "#ADD6FF",
+            "black": "#000000",
+            "red": "#B31D28",
+            "green": "#0E7A0D",
+            "yellow": "#8A6D00",
+            "blue": "#0451A5",
+            "purple": "#A626A4",
+            "cyan": "#0598BC",
+            "white": "#555555",
+            "brightBlack": "#5A5A5A",
+            "brightRed": "#CD3131",
+            "brightGreen": "#107C10",
+            "brightYellow": "#8A6D00",
+            "brightBlue": "#0451A5",
+            "brightPurple": "#BC05BC",
+            "brightCyan": "#0E7490",
+            "brightWhite": "#A5A5A5"
+        }
+    ],
+    "themes": []
+}
